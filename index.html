@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dictionary APP with API</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <audio id="sound"></audio>
+
+    <div class="container">
+      <div class="search-box">
+        <input type="text" placeholder="Type word here" />
+        <button id="btn">Search</button>
+      </div>
+
+      <div class="output-box">
+        <div class="word">
+          <h3>Sample</h3>
+          <button><i class="fas fa-volume-high" id="speak"></i></button>
+        </div>
+
+        <div class="details">
+          <p id="pos">pos</p>
+          <p id="phonetic">/sample/</p>
+        </div>
+
+        <p class="word-meaning">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eum
+          exercitationem deleniti laboriosam ea illum animi eius veniam id in!
+        </p>
+        <p class="word-example">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+          ducimus id eligendi provident similique libero ipsum velit labore
+          necessitatibus aspernatur.
+        </p>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

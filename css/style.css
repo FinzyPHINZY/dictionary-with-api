@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: cornflowerblue;
+}
+
+.container {
+  width: 90vmin;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  background: white;
+  border-radius: 10px;
+  padding: 80px 50px;
+  box-shadow: 0 20px 40px rgba(38, 33, 61, 0.5);
+}
+
+.search-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-box input {
+  width: 70%;
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid cornflowerblue;
+  font-size: 16px;
+}
+
+.search-box button {
+  padding: 15px 0;
+  width: 20%;
+  background-color: cornflowerblue;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.output-box {
+  position: relative;
+}
+
+.output-box h3 {
+  font-size: 30px;
+  color: #1f194c;
+}
+
+.output-box .word {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.output-box button {
+  background-color: transparent;
+  color: cornflowerblue;
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+
+.output-box .details {
+  display: flex;
+  gap: 10px;
+  color: #b3b6d4;
+  margin: 5px 0 20px 0;
+  font-size: 14px;
+}
+
+.word-meaning,
+.word-example {
+  color: #575a7b;
+}
+
+.word-example {
+  font-style: italic;
+  border-left: 5px solid cornflowerblue;
+  padding-left: 20px;
+  margin-top: 30px;
+}
