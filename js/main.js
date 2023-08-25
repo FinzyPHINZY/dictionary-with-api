@@ -40,9 +40,3 @@ function getMeaning() {
       outputBox.style.marginTop = "80px";
     });
 }
-
-// document.getElementById("speak").addEventListener("click", playSound);
-// function playSound() {
-//   let yellThis = new SpeechSynthesisUtterance(data[0].word);
-
-//   synth.speak(yellThis);
