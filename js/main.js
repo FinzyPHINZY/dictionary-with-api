@@ -36,7 +36,8 @@ function getMeaning() {
       }
     })
     .catch((err) => {
-      console.log(`error ${err}`);
+      outputBox.innerHTML = `<h3>Word could not be found</h3>`;
+      outputBox.style.marginTop = "80px";
     });
 }
 
